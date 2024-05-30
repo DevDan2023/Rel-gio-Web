@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+    font-family: 'Arial', sans-serif;
+    background-size: cover;
+}
+
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff7c;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#clock {
+    font-size: 70px;
+}
+
+.dia {
+    background-image: url(manhã.jpg);
+    color: goldenrod;
+}
+
+.noite{
+    background-image: url(noite.jpg);
+    color: grey;
+}
